@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.wrapper {
+    width: 100%;
+    min-height: 100vh;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.todo__list {
+    width: 600px;
+}
+
+.todo__header {
+    width: 100%;
+    display: flex;
+    margin-bottom: 24px;
+}
+
+.todo__input {
+    flex: 1;
+    padding: 5px 10px;
+    font-size: 18px;
+}
+
+.todo__btn {
+    font-size: 18px;
+    padding: 5px;
+}
+
+.todo__item {
+    display: flex;
+    font-size: 24px;
+}
+
+.todo__item-text {
+    flex: 1;
+}

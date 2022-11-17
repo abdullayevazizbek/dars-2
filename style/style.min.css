@@ -1,0 +1,86 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:300,regular,500,600,700,800,300italic,italic,500italic,600italic,700italic,800italic);
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+ul,
+ol,
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+/*GLOBAL START*/
+.wrapper {
+  width: 100%;
+  min-height: 100vh;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #11BAEF;
+}
+.wrapper_wrap {
+  width: 60%;
+  background-color: #fff;
+  border-radius: 10px;
+  height: 60%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 40px;
+}
+
+/*GLOBAL END*/
+.todo {
+  width: 65%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.todo__list {
+  width: 600px;
+}
+.todo__header {
+  width: 100%;
+  display: flex;
+  margin-bottom: 24px;
+}
+.todo__input {
+  flex: 1;
+  padding: 5px 10px;
+  font-size: 18px;
+  outline: none;
+  margin-right: 30px;
+}
+.todo__btn {
+  font-size: 18px;
+  background-color: #11BAEF;
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  margin: 0 5px 5px 0;
+}
+.todo__btn:first-child {
+  margin: 0 5px 5px 0;
+}
+.todo__item {
+  display: flex;
+  font-size: 24px;
+}
+.todo__item-text {
+  flex: 1;
+  font-family: "Open sans", sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+}
